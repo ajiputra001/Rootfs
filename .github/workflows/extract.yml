@@ -96,7 +96,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
         with:
-          name: Mutiara-Wrt Rootfs
+          name: Ajiputra-Wrt Rootfs
           tag_name: all
           draft: false
           prerelease: false
