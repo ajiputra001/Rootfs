@@ -67,6 +67,21 @@ jobs:
         perlbase-file kmod-brcmutil perlbase-essential perlbase-utf8 \
         perlbase-file  perlbase-time perlbase-xsloader coreutils-stat sudo \
         luci-app-ttyd luci-app-openclash luci-app-amlogic luci-app-diskman \
+        git git-http jq openssh-client openssl-util luci-app-ttyd ttyd zram-swap vnstat vnstati curl ca-certificates \
+        kmod-usb-net kmod-usb-net-huawei-cdc-ncm kmod-usb-net-cdc-ether kmod-usb-acm kmod-usb-net-qmi-wwan \
+        usbutils kmod-usb-net-cdc-ether usb-modeswitch kmod-usb-net-asix kmod-usb-net-asix-ax88179 kmod-usb-net-dm9601-ether kmod-usb-net-rtl8152 \
+        kmod-usb-net-rndis kmod-usb-serial-qualcomm kmod-usb-net-sierrawireless kmod-usb-ohci kmod-usb-serial \
+        kmod-nls-utf8 kmod-usb-serial-option kmod-usb-serial-sierrawireless kmod-usb-uhci kmod-usb2 \
+        kmod-usb-net-ipheth kmod-usb-net-cdc-mbim usbmuxd libusbmuxd-utils libimobiledevice-utils \
+        mbim-utils qmi-utils uqmi umbim luci-proto-3g luci-proto-ncm \
+        luci-proto-ncm usb-modeswitch nano picocom minicom wget curl libusb-1.0-0 \
+        rpcd-mod-rrdns uhttpd uhttpd-mod-ubus usbutils htop \
+        uci uclient-fetch urandom-seed urngd kmod-amazon-ena kmod-bnx2 \
+        kmod-e1000e kmod-e1000 kmod-forcedeth kmod-fs-vfat kmod-igb \
+        kmod-igc kmod-ixgbe kmod-r8169 kmod-tg3 luci \
+        hostapd hostapd-utils \
+        kmod-iwlwifi iwlwifi-firmware-iwl7265d \
+        wireless-tools iw-full wpa-supplicant \
         " FILES="files" || true
 
     - name: Find Rootfs
