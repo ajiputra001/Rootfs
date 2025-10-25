@@ -67,6 +67,10 @@ jobs:
         perlbase-file kmod-brcmutil perlbase-essential perlbase-utf8 \
         perlbase-file  perlbase-time perlbase-xsloader coreutils-stat sudo \
         luci-app-ttyd luci-app-openclash luci-app-amlogic luci-app-diskman \
+        luci-app-modeminfo luci-app-3ginfo-lite luci-app-modemband luci-app-sms-tool-js luci-app-internet-detector \
+        luci-app-ttyd luci-app-amlogic luci-app-diskman luci-app-tailscale \
+        perlbase-file perlbase-time perlbase-xsloader coreutils-stat sudo \
+        perlbase-file kmod-brcmutil perlbase-essential perlbase-utf8 \
         git git-http jq openssh-client openssl-util luci-app-ttyd ttyd zram-swap vnstat vnstati curl ca-certificates \
         kmod-usb-net kmod-usb-net-huawei-cdc-ncm kmod-usb-net-cdc-ether kmod-usb-acm kmod-usb-net-qmi-wwan \
         usbutils kmod-usb-net-cdc-ether usb-modeswitch kmod-usb-net-asix kmod-usb-net-asix-ax88179 kmod-usb-net-dm9601-ether kmod-usb-net-rtl8152 \
